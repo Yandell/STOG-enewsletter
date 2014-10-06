@@ -1,0 +1,549 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>School's Out - [Month Year]</title>
+<style>
+	/* Links */
+	img {
+		display: block;
+		border: none;
+	}
+	
+	a {
+	text-decoration: none !important;
+	color: #ed1c24;
+	font-weight: bold;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	}
+	a:hover {
+		text-decoration: underline !important;
+	}
+	
+	img a {
+		border: none;
+	}
+	
+	/* Web versions */
+	td.webversion {
+		color: #ffffff;
+		font-size:13px;
+		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-weight:normal;
+	}
+	td.webversion a {
+		color:#CCCCCC;
+		text-decoration:underline;
+	}
+	
+	table { text-align: left; }
+	
+	/* Header */
+	td.logo {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 38px;
+		font-weight: 500;
+		color: #555;
+	}
+	
+	td.social {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		font-weight: 100;
+		color: #555;
+	}
+	
+	/* Storys */
+	td.story {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		font-weight: 100;
+		color: #555;
+	}
+	
+	td.story-title {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 24px;
+		line-height: 1;
+		font-weight: 600;
+		color: #666666;
+		letter-spacing: -1px;
+	}
+	
+	td.story-text {
+	font-size: 14px;
+	color: #666666;
+	font-weight: 100;
+	text-align: left;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 20px;
+	}
+	
+	td.button {
+		color: #ed1c24;
+		font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		font-weight: bold;
+		height: 25px;
+	}
+	
+	
+	td.button a:visited,
+	td.button a:active,
+	td.button a:hover {
+		color: #F97DA0 !important;
+		text-decoration: none !important;
+	}
+	
+	td.buttoncaps {
+		width: 9px;
+		height: 25px;
+	}
+	
+	
+	/* Footer */
+	td.footer-links {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		font-weight: 600;
+		color: #555;
+	}
+	
+	td.footer-links span.divider {
+		font-size: 16px;
+		font-weight: 100;
+		color: #cada3f;
+	}
+	
+	td.footer-links a,
+	td.footer-links a:visited,
+	td.footer-links a:active,
+	td.footer-links a:hover {
+		color: #555 !important;
+		text-decoration: none !important;
+	}
+	
+	td.unsub {
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 11px;
+		font-weight: 100;
+		color: #555;
+	}
+	
+	td.border {
+		border-bottom: 3px solid #FF2D00;
+	}
+	
+	/* Mobile */
+	@media only screen and (max-width: 480px) {
+		table[id="main"] {
+			width: 325px !important;
+		}
+	
+	     table[class="table"], table[class="table content"], td[class="cell"], img[class="header-image"] {
+	          width: 325px !important;
+	          height: auto;
+	     }
+		 
+		 td[class="mobileHide"] { display:none;}
+	     
+	     td[class="logo"] img {
+			height:96px;
+	     	width: 165px;
+	     }
+	     
+	     td[class="social text"] {
+	     	display: none !important;
+	     }
+	     
+	     td[class="story"], td[class="story text"], td[class="footer-item"] {
+	     	display: block !important;
+	     }
+		 
+		 td[class="story-text"]{
+			 font-size:16px!important;
+			 line-height:20px!important;
+		 }
+	     
+	     table[class="story-text-table"] {
+	     	float: left;
+	     	width: 325px;
+	     	height: auto;
+	     }
+	     
+	     img[class="story-image"] {
+	     	width: 325px;
+	     	height: 191px;
+	     }
+	     
+	   
+	     
+	     /* td[class="story"] {
+			height: 143px !important;
+			overflow: hidden !important;
+	     } 
+	     
+	     td[id="first-story-image"] {
+	     	display: none !important;
+	     } */
+	     
+	     td[class="story-title"] {
+			 font-size:20px!important;
+			 line-height:24px;
+			 
+	     }
+		 
+		 td[class="first-story-spacer"] {
+	     	height: 20px !important;
+	     }
+	     
+	     td[class="story-spacer"] {
+	     	height: 10px !important;
+	     }
+	     
+	     tr[class="tweet"] {
+	     	display: none !important;
+	     }
+		 
+		 h3[class=smallerTagline] {
+			 font-size:22px!important;
+		 }
+		 
+		 span[class=smallerTagline] {
+			 font-size:16px!important;
+		 }
+	}
+	</style>
+</head>
+<body bgcolor="#ffffff" topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="-webkit-font-smoothing: antialiased;width:100% !important;background:#ffffff;-webkit-text-size-adjust:none;">
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="text-align: left;">
+<tr>
+<td bgcolor="#111111">
+			<!--INVISIBLE TEXT FOR APPLE DEVICES //-->
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" valign="middle" bgcolor="#666666" class="mobileHide" style="color: #666666;font-size: 1px;font-family: Helvetica, Arial, sans-serif;font-weight: normal; line-height:1;">Top picks from the pages of schooltravelorganiser.com
+                </td>
+              </tr>
+            </table>
+            <!-- // INVISIBLE TEXT FOR APPLE DEVICES-->
+			<table width="100%" border="0" cellspacing="0" cellpadding="8" style="text-align: left;">
+                <td align="center" valign="middle" bgcolor="#666666" class="mobileHide" style="color: #ffffff;font-size: 13px;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight: normal;">Having trouble viewing this email? View it in your <a href="[*link.webversion_url*]" style="color: #CCCCCC!important;font-weight: bold;text-decoration: none !important;">browser</a>
+                </td>
+			</tr>
+            </table>
+</td>
+	</tr>
+<tr><td bgcolor="#ffffff" width="100%">
+			<table id="main" width="590" cellpadding="0" cellspacing="0" border="0" align="center" class="table" style="text-align: left;">
+<tr>
+<td height="25"></td>
+				</tr>
+<tr height="35">
+<td>
+						<table width="590" cellpadding="0" cellspacing="0" class="table" style="text-align: left;">
+<tr>
+<td width="323" align="left" class="logo" style="font-family: Helvetica, Arial, sans-serif;font-size: 38px;font-weight: 500;color: #555;">
+<a href="http://www.schooltravelorganiser.com" target="_blank" title="Click here to visit schooltravelorganiser.com" style="font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;text-decoration: none !important;color: #ed1c24 !important;"><img src="img/STO-logo.gif" style="border: none;display: block;" alt="school travel organiser.com" width="238" height="139"></a>
+								</td>
+								<td width="275" align="right">
+                                	<h3 style="display: block; font-family: Helvetica; font-size: 42px; font-weight: bold; line-height: 1.1; letter-spacing: -1px; margin-top: 0; margin-right: 0; margin-bottom: 15px; margin-left: 0; text-align: right; color: #666666;" class="smallerTagline">School's Out<br>
+                                    <span style="color:#ed1c24; font-size:20px;" class="smallerTagline">July/August 2014</span></h3>
+									<table style="text-align: left;">
+                                    <tr>
+										<td class="social text" align="right" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;">Follow us on<br>Facebook and Twitter</td>
+											<td width="25" align="center" class="social" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;"><a href="https://www.facebook.com/schooltravelorganiser" target="_blank" style="font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;text-decoration: none !important;color: #ed1c24 !important;"><img src="img/icon-facebook.gif" alt="f" title="Facebook" style="display: block;border: none;"></a></td>
+											<td width="25" align="center" class="social" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;"><a href="https://twitter.com/SchoolTravelOrg" target="_blank" style="font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;text-decoration: none !important;color: #ed1c24 !important;"><img src="img/icon-twitter.gif" alt="t" title="Twitter" style="display: block;border: none;"></a></td>
+										</tr>
+                                      </table>
+									</td>
+							</tr>
+<tr>
+<td height="10"></td>
+							</tr>
+</table>
+</td>
+				</tr>
+<tr>
+<td height="13"></td>
+				</tr>
+<tr>
+<td><a href="http://www.schooltravelorganiser.com/guide" target="_blank" title="Click here to read the latest online edition" style="font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;text-decoration: none !important;color: #ed1c24 !important;"><img src="img/banner.jpg" style="border: none;display: block;" alt="You can also read the latest edition: click here" width="590" class="header-image" editable="true" label="Header image (590px x 260px)"></a></td>
+						</tr>
+<tr>
+<td class="first-story-spacer" height="20" style="font-size:1px; line-height:1px;">&nbsp;</td>
+						</tr>
+                        <tr>
+                        	<td>
+                            	<!--INTRO TEXT //-->
+                                <table style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;text-align: left;" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 0; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; text-align: center;">
+                                            <h3 style="display: block; font-family: Helvetica; font-size: 24px; font-weight: bold; line-height: 28px; letter-spacing: -1px; margin:0; margin-top:0; margin:right:0; margin-bottom:0; margin-left:0; text-align: center; color: #666666;" class="smallerTagline">Top picks from the pages of <span style="color:#666666;">schooltravelorganiser.com</span>...</h3>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--// INTRO TEXT-->
+                            </td>
+                        </tr>
+<tr>
+<td>
+								<table width="590" cellspacing="0" cellpadding="0" class="table content" style="text-align: left;">
+<tr>
+<td class="story" valign="top" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;"><img src="img/story.jpg" alt="Your image" width="271" height="159" class="story-image" editable="true" label="Main Story Side image (270px x 160px)" style="display: block;border: none;"></td>
+										<td class="story text" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;">
+											<table width="295" height="159" align="right" cellpadding="0" cellspacing="0" class="story-text-table" style="text-align: left;">
+                                            <tr>
+                                            	<td class="story-spacer" height="0" style="font-size:1px; line-height:1px;"><img src="img/spacer.gif" alt="" style="border: none;display: block;" width="1" height="1">
+                                                </td>
+                                            </tr>
+<tr>
+<td height="25" valign="top" class="story-title" style="font-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 27px;font-weight: 600;color: #666666;letter-spacing: -1px;"><a style="color: #666666; text-decoration: none;" href="#" target="_blank">Story 1</a></td>
+											</tr>
+                                            <tr>
+                                              <td height="4" valign="top" style="font-size:4px; line-height:4px;">&nbsp;</td>
+                                            </tr>
+<tr>
+<td valign="top" class="story-text" style="font-size: 14px;color: #666666;font-weight: 100;text-align: left;font-family: Helvetica, Arial, sans-serif;line-height: 20px;">
+														<multiline label="Main Story Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nis.</multiline>
+</td>
+												</tr>
+<tr>
+<td height="20" valign="bottom">
+														<table cellpadding="0" cellspacing="0" style="text-align: left;"><tr>
+<td class="button" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;font-weight: bold;"><a href="/" target="_blank" class="button" style="text-decoration: none !important;color: #ed1c24 !important;">Read More &rarr;</a></td>
+															</tr></table>
+</td>
+												</tr>
+</table>
+</td>
+									</tr>
+<tr>
+<td height="30" style="font-size:30px; line-height:30px;">&nbsp;</td>
+									</tr>
+</table>
+</td>
+						</tr>
+</table>
+<table id="main" width="590" cellpadding="0" cellspacing="0" border="0" align="center" class="table" style="text-align: left;"><tr>
+<td>
+							<table width="590" cellspacing="0" cellpadding="0" class="table content" style="text-align: left;">
+<tr>
+<td class="story" valign="top" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;"><img class="story-image" width="271" src="img/story.jpg" editable="true" label="Side image (270px x 160px)" alt="Image Blocked" style="display: block;border: none;"></td>
+									<td class="story text" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;">
+										<table width="295" height="160" align="right" cellpadding="0" cellspacing="0" class="story-text-table" style="text-align: left;">
+                                        	<tr>
+                                            	<td class="story-spacer" height="0" style="font-size:1px; line-height:1px;"><img src="img/spacer.gif" alt="" style="border: none;display: block;" width="1" height="1">
+                                                </td>
+                                            </tr>
+<tr>
+<td height="25" valign="top" class="story-title" style="font-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 27px;font-weight: 600;color: #666666;letter-spacing: -1px;"><a style="color: #666666; text-decoration: none;" href="#" target="_blank">Story 2</a></td>
+											</tr>
+                                            <tr>
+                                              <td height="4" valign="top" style="font-size:4px; line-height:4px;">&nbsp;</td>
+                                            </tr>
+<tr>
+<td valign="top" class="story-text" style="font-size: 14px;color: #666666;font-weight: 100;text-align: left;font-family: Helvetica, Arial, sans-serif;line-height: 20px;">
+													<multiline label="Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</multiline>
+</td>
+											</tr>
+<tr>
+<td valign="bottom">
+													<table cellpadding="0" cellspacing="0" style="text-align: left;"><tr>
+<td class="button" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;font-weight: bold;"><a href="/" target="_blank" class="button" style="text-decoration: none !important;color: #ed1c24 !important;">Read More &rarr;</a></td>
+															</tr></table>
+</td>
+											</tr>
+</table>
+</td>
+								</tr>
+<tr>
+<td height="30"></td>
+								</tr>
+<tr>
+<td class="story" valign="top" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;"><img class="story-image" width="271" src="img/story.jpg" editable="true" label="Side image (270px x 160px)" alt="Your image" style="display: block;border: none;"></td>
+									<td class="story text" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;">
+										<table width="295" height="160" align="right" cellpadding="0" cellspacing="0" class="story-text-table" style="text-align: left;">
+                                        	<tr>
+                                            	<td class="story-spacer" height="0" style="font-size:1px; line-height:1px;"><img src="img/spacer.gif" alt="" style="border: none;display: block;" width="1" height="1">
+                                                </td>
+                                            </tr>
+<tr>
+<td height="25" valign="top" class="story-title" style="font-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 27px;font-weight: 600;color: #666666;letter-spacing: -1px;"><a style="color: #666666; text-decoration: none;" href="#" target="_blank">Story 3</a></td>
+											</tr>
+                                            <tr>
+                                              <td height="4" valign="top" style="font-size:4px; line-height:4px;">&nbsp;</td>
+                                            </tr>
+<tr>
+<td valign="top" class="story-text" style="font-size: 14px;color: #666666;font-weight: 100;text-align: left;font-family: Helvetica, Arial, sans-serif;line-height: 20px;">
+													<multiline label="Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</multiline>
+</td>
+											</tr>
+<tr>
+<td valign="bottom">
+													<table cellpadding="0" cellspacing="0" style="text-align: left;"><tr>
+<td class="button" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;font-weight: bold;"><a href="/" target="_blank" class="button" style="text-decoration: none !important;color: #ed1c24 !important;">Read More &rarr;</a></td>
+															</tr></table>
+</td>
+											</tr>
+</table>
+</td>
+								</tr>
+<tr>
+<td height="30"></td>
+								</tr>
+<tr>
+<td class="story" valign="top" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;"><img src="img/story.jpg" alt="Your image" width="271" height="159" class="story-image" editable="true" label="Side image (270px x 160px)" style="display: block;border: none;"></td>
+									<td class="story text" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;">
+										<table width="295" height="160" align="right" cellpadding="0" cellspacing="0" class="story-text-table" style="text-align: left;">
+                                        	<tr>
+                                            	<td class="story-spacer" height="0" style="font-size:1px; line-height:1px;"><img src="img/spacer.gif" alt="" style="border: none;display: block;" width="1" height="1">
+                                                </td>
+                                            </tr>
+<tr>
+<td height="25" valign="top" class="story-title" style="font-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 27px;font-weight: 600;color: #666666;letter-spacing: -1px;"><a style="color: #666666; text-decoration: none;" href="#" target="_blank">Story 4</a></td>
+											</tr>
+                                            <tr>
+                                              <td height="4" valign="top" style="font-size:4px; line-height:4px;">&nbsp;</td>
+                                            </tr>
+<tr>
+<td valign="top" class="story-text" style="font-size: 14px;color: #666666;font-weight: 100;text-align: left;font-family: Helvetica, Arial, sans-serif;line-height: 20px;">
+													<multiline label="Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</multiline>
+</td>
+											</tr>
+<tr>
+<td valign="bottom">
+													<table cellpadding="0" cellspacing="0" style="text-align: left;"><tr>
+<td class="button" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;font-weight: bold;"><a href="/" target="_blank" class="button" style="text-decoration: none !important;color: #ed1c24 !important;">Read More &rarr;</a></td>
+															</tr></table>
+</td>
+											</tr>
+</table>
+</td>
+								</tr>
+<tr>
+<td height="30"></td>
+								</tr>
+<tr>
+<td class="story" valign="top" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;"><img src="img/story.jpg" alt="Your image" width="271" height="159" class="story-image" editable="true" label="Side image (270px x 160px)" style="display: block;border: none;"></td>
+									<td class="story text" style="font-family: Helvetica, Arial, sans-serif;font-size: 13px;font-weight: 100;color: #555;">
+										<table width="295" height="160" align="right" cellpadding="0" cellspacing="0" class="story-text-table" style="text-align: left;">
+                                        	<tr>
+                                            	<td class="story-spacer" height="0" style="font-size:1px; line-height:1px;"><img src="img/spacer.gif" alt="" style="border: none;display: block;" width="1" height="1">
+                                                </td>
+                                            </tr>
+<tr>
+<td height="25" valign="top" class="story-title" style="font-family: Helvetica, Arial, sans-serif;font-size: 24px;line-height: 27px;font-weight: 600;color: #666666;letter-spacing: -1px;"><a style="color: #666666; text-decoration: none;" href="#" target="_blank">Story 5</a></td>
+											</tr>
+                                            <tr>
+                                              <td height="4" valign="top" style="font-size:4px; line-height:4px;">&nbsp;</td>
+                                            </tr>
+<tr>
+<td valign="top" class="story-text" style="font-size: 14px;color: #666666;font-weight: 100;text-align: left;font-family: Helvetica, Arial, sans-serif;line-height: 20px;">
+													<multiline label="Text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</multiline>
+</td>
+											</tr>
+<tr>
+<td valign="bottom">
+													<table cellpadding="0" cellspacing="0" style="text-align: left;"><tr>
+<td class="button" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 16px;font-weight: bold;"><a href="/" target="_blank" class="button" style="text-decoration: none !important;color: #ed1c24 !important;">Read More &rarr;</a></td>
+															</tr></table>
+</td>
+											</tr>
+</table>
+</td>
+								</tr>
+<tr>
+<td height="30"></td>
+								</tr>
+</table>
+<!--REG LINK //-->
+<table style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;text-align: left;" border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <td align="center" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #666666; font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-weight:100; line-height: 20px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; text-align: center; border-top-width: 1px; border-top-style: dotted; border-top-color: #BEBEBE;" class="story-text">
+            	Ensure you get your free copy of the <strong>School Travel Organiser's Guide</strong>, published quarterly in print and online. <a href="http://www.schooltravelorganiser.com/register" target="_blank" style="font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;text-decoration: none !important;color: #ed1c24 !important;">Complete our short Reader Registration form</a>. </td>
+        </tr>
+    </tbody>
+</table>
+<!--// REG LINK-->
+<!--APP LINK //-->
+<table style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;text-align: left;" border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <td align="center" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #666666; font-family: Helvetica; padding-top: 20px; padding-right: 0; padding-bottom: 10px; padding-left: 0; text-align: center; border-top-width: 1px; border-top-style: dotted; border-top-color: #BEBEBE;">
+            <h3 style="display: block; font-family: Helvetica; font-size: 16px; font-style: normal; font-weight: normal; line-height: 24px; letter-spacing: normal; margin-top: 0; margin-right: 0; margin-bottom: 10px; margin-left: 0; text-align: center; color: #666666;">School Travel Organiser's Guide is also available <b>FREE</b> on the<br> 
+            Apple App Store. <a style="color: #ed1c24;text-decoration: none;font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;" href="https://itunes.apple.com/gb/app/school-travel-organisers-guide/id857703707?mt=8" target="_blank">Download it today!</a></h3>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align: left;">
+              <tr>
+                <td>&nbsp;</td>
+                <td width="135"><a href="https://itunes.apple.com/gb/app/school-travel-organisers-guide/id857703707?mt=8" target="_blank" style="font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;text-decoration: none !important;color: #ed1c24 !important;"><img style="max-width: 135px;-ms-interpolation-mode: bicubic;border: none;height: auto;line-height: 100%;outline: none;text-decoration: none;display: block;" src="http://msgfocus.com/files/amf_yandell_publishing/project_3/GL-emag-alert-template/images/app.jpg" alt="Download the App on the App Store"></a></td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td style="font-size:10px; line-height:10px;">&nbsp;</td>
+                <td style="font-size:10px; line-height:10px;">&nbsp;</td>
+                <td style="font-size:10px; line-height:10px;">&nbsp;</td>
+              </tr>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<!--// APP LINK-->
+<!--WEB LINK //-->
+<table style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;text-align: left;" border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <td align="center" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #666666; font-family: Helvetica, Arial, sans-serif; font-size: 14px; font-weight:100; line-height: 20px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; text-align: center; border-top-width: 1px; border-top-style: dotted; border-top-color: #BEBEBE;" class="story-text">
+            	For news, features and to search the School Travel Directory head to <a href="http://www.schooltravelorganiser.com" target="_blank" style="font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;text-decoration: none !important;color: #ed1c24 !important;">schooltravelorganiser.com</a>.
+                </td>
+        </tr>
+    </tbody>
+</table>
+<!--// WEB LINK-->
+<!--APP LINK //-->
+<table style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;text-align: left;" border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <td align="center" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #666666; font-family: Helvetica; font-size: 14px; line-height: 130%; padding-top: 20px; padding-right: 0; padding-bottom: 20px; padding-left: 0; text-align: center; border-top-width: 1px; border-top-style: dotted; border-top-color: #BEBEBE;">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" style="text-align: left;">
+              <tr>
+                <td>&nbsp;</td>
+                <td width="300"><img style="max-width: 300px;-ms-interpolation-mode: bicubic;border: none;height: auto;line-height: 100%;outline: none;text-decoration: none;display: block;" src="img/LOTC-alt.gif" alt="We are a member of the Council for Learning Outside the Classroom"></td>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<!--// APP LINK-->
+</td>
+					</tr></table>
+<table bgcolor="#f2f2f2" border="0" cellpadding="0" cellspacing="0" width="100%" style="text-align: left;"><tbody><tr>
+<td align="center" bgcolor="#111111" valign="top">
+		
+			<img src="img/spacer.gif" border="0" height="30" width="1" style="display: block;border: none;"><table class="table" border="0" cellpadding="0" cellspacing="0" width="600" style="text-align: left;"><tbody><tr>
+<td class="footershow" align="left" valign="top" width="434"><p class="reminder" style="color: #DDD; font-size: 13px; font-family: Helvetica,Arial,sans-serif; line-height: 18px;">You have been sent this e-mail from Yandell Media Group Ltd, publisher of School Travel Organiser's Guide and schooltravelorganiser.com. If you do not want to receive future messages we feel will be of interest to you, you can unsubscribe by <a href="[*link.unsub_url*]" target="_blank" style="color: #a6a6a6;text-decoration: underline !important;font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">clicking here.</a></p>
+<p class="reminder" style="color: #DDD; font-size: 13px; font-family: Helvetica,Arial,sans-serif; line-height: 18px;">Yandell Publishing Ltd, PO Box 5122, Milton Keynes MK15 8ZP. Registered No. 1975794</p></td>
+					  <td align="right" valign="top" width="30">
+                      <img src="img/spacer.gif" border="0" height="10" width="1" style="display: block;border: none;"><br><table border="0" cellpadding="0" cellspacing="0" width="70" style="text-align: left;"><tbody><tr>
+<td width="52" align="right"><a href="http://www.facebook.com" target="_blank" style="text-decoration: underline !important;font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;color: #ed1c24 !important;"><img src="img/icon-facebook.gif" alt="facebook" title="Facebook" border="0" height="24" width="24" style="display: block;border: none;"></a></td>
+						    <td width="10"><span class="hide" style="color:#a6a6a6; font-size: 12px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; text-shadow: 0 1px 0 #ffffff;">
+                     <img src="img/spacer.gif" border="0" height="1" width="8" style="display: block;border: none;"></span></td>
+						    <td width="43" align="right"><a href="http://www.twitter.com" target="_blank" style="text-decoration: underline !important;font-weight: bold;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;color: #ed1c24 !important;"><img src="img/icon-twitter.gif" alt="Twitter" title="Twitter" border="0" height="25" width="25" style="display: block;border: none;"></a></td>
+						    <td width="9" align="right"><span class="hide" style="color:#a6a6a6; font-size: 12px; font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;text-shadow:0 1px 0 #ffffff;"></span></td>
+					      </tr></tbody></table>
+</td>
+					</tr></tbody></table>
+<img src="img/spacer.gif" border="0" height="25" width="1" style="display: block;border: none;">
+</td>
+	</tr></tbody></table>
+</td></tr>
+</table>
+</body>
+</html>
