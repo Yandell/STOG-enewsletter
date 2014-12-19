@@ -294,10 +294,22 @@
 </table>
 </td>
 				</tr>
-<tr>
-<td height="13"></td>
+                <tr>
+                	<td>
+                    			<!--INTRO TEXT //-->
+                                <table style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-collapse: collapse;text-align: left;" border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 15px; padding-right: 0; padding-bottom: 20px; padding-left: 0; text-align: center;">
+                                            <h4 style="display: block; font-family: Helvetica; font-size: 20px; font-weight: bold; line-height: 24px; letter-spacing: -1px; margin:0; margin-top:0; margin:right:0; margin-bottom:0; margin-left:0; text-align: center; color: #ed1c24;" class="smallerTagline">Helping you make a success of learning outside the classroom</h4>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <!--// INTRO TEXT-->
+                    </td>
 				</tr>
-<tr>
+				<tr>
 									<td align="center">
                                        <a target="_blank" href="#">
                                        <span id="banner1">
