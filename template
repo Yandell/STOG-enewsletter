@@ -218,7 +218,7 @@
 			 display:block;
 			 width: 325px!important;
 			 height:130px!important;
-			 background-image: url(img/mobile-banner.gif) !important;
+			 background-image: url(http://placehold.it/325x130) !important;
 			 background-size: cover;
 		 }
 		 
@@ -226,7 +226,7 @@
 			 display:block;
 			 width: 325px!important;
 			 height:130px!important;
-			 background-image: url(img/mobile-banner.gif) !important;
+			 background-image: url(http://placehold.it/325x130) !important;
 			 background-size: cover;
 		 }
 		 
@@ -234,7 +234,7 @@
 			 display:block;
 			 width: 325px!important;
 			 height:160px!important;
-			 background-image: url(img/mobile-emag-teaser.jpg) !important;
+			 background-image: url(http://stog.msgfocus.com/files/amf_yandell_publishing/project_126/Y2882-STO-e-newsletter-template/img/mobile-emag-teaser.jpg) !important;
 			 background-size: cover;
 		 }
 		 
